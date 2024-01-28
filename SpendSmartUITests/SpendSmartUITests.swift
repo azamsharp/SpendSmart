@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import SpendSmartAzam1234
 
 final class SpendSmartUITests: XCTestCase {
 
@@ -15,7 +16,7 @@ final class SpendSmartUITests: XCTestCase {
         continueAfterFailure = false
         app.launchArguments = ["UITEST"]
         app.launch()
-    }
+    }   
     
     func testAddNewBudgetCategory() throws {
        

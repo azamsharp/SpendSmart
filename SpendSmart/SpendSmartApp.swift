@@ -18,12 +18,9 @@ struct ModelContainerFactory {
         container = try! ModelContainer(for: BudgetCategory.self, configurations: configuration)
         
         if ProcessInfo.processInfo.arguments.contains("UITEST") {
-            
-            // THIS DOES NOT WORK
-            //container.deleteAllData()
-            
-            // THIS WORKS
+           
             try! container.mainContext.delete(model: BudgetCategory.self)
+            try! container.mainContext.delete(model: Transaction.self)
         }
         
         return container

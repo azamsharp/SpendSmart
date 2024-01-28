@@ -8,6 +8,7 @@
 import XCTest
 import SwiftData
 
+
 final class SpendSmartTests: XCTestCase {
     
     private var budgetCategory: BudgetCategory!
