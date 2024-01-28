@@ -64,7 +64,7 @@
 		8D45AD292AC92CFB00CE0D06 /* MockContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockContainer.swift; sourceTree = "<group>"; };
 		8D7F87F72ACB4AED00FC0FA6 /* BudgetListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetListScreen.swift; sourceTree = "<group>"; };
 		8D7F87F92ACB4F8000FC0FA6 /* BudgetDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetDetailScreen.swift; sourceTree = "<group>"; };
-		8D828BAC2AC8DB3D00CF6BC0 /* SpendSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpendSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D828BAC2AC8DB3D00CF6BC0 /* SpendSmartAzam1234.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpendSmartAzam1234.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D828BAF2AC8DB3D00CF6BC0 /* SpendSmartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendSmartApp.swift; sourceTree = "<group>"; };
 		8D828BB32AC8DB3F00CF6BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D828BB62AC8DB3F00CF6BC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -152,6 +152,14 @@
 			path = SpendSmartTests;
 			sourceTree = "<group>";
 		};
+		8D4AFBAB2B66B39F0006EEAD /* Preview Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8D0B04462AC9CB7D007F0C8E /* PreviewContainer.swift */,
+			);
+			path = "Preview Assets";
+			sourceTree = "<group>";
+		};
 		8D7F87F62ACB475F00FC0FA6 /* Page Objects */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,7 +182,7 @@
 		8D828BAD2AC8DB3D00CF6BC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D828BAC2AC8DB3D00CF6BC0 /* SpendSmart.app */,
+				8D828BAC2AC8DB3D00CF6BC0 /* SpendSmartAzam1234.app */,
 				8D45AD202AC92CA900CE0D06 /* SpendSmartTests.xctest */,
 				8D9F35312ACAFF4600CC61AD /* SpendSmartUITests.xctest */,
 			);
@@ -184,6 +192,7 @@
 		8D828BAE2AC8DB3D00CF6BC0 /* SpendSmart */ = {
 			isa = PBXGroup;
 			children = (
+				8D4AFBAB2B66B39F0006EEAD /* Preview Assets */,
 				8D0B04412AC9C134007F0C8E /* Views */,
 				8D0B043E2AC9C103007F0C8E /* View Modifiers */,
 				8D0B04392AC9C081007F0C8E /* Environment Values */,
@@ -202,7 +211,6 @@
 			isa = PBXGroup;
 			children = (
 				8D828BB62AC8DB3F00CF6BC0 /* Preview Assets.xcassets */,
-				8D0B04462AC9CB7D007F0C8E /* PreviewContainer.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -270,7 +278,7 @@
 			);
 			name = SpendSmart;
 			productName = SpendSmart;
-			productReference = 8D828BAC2AC8DB3D00CF6BC0 /* SpendSmart.app */;
+			productReference = 8D828BAC2AC8DB3D00CF6BC0 /* SpendSmartAzam1234.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8D9F35302ACAFF4600CC61AD /* SpendSmartUITests */ = {
@@ -433,7 +441,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpendSmart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpendSmart";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpendSmart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpendSmartAzam1234";
 			};
 			name = Debug;
 		};
@@ -451,7 +459,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpendSmart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpendSmart";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpendSmart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpendSmartAzam1234";
 			};
 			name = Release;
 		};
@@ -596,7 +604,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.SpendSmart;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SpendSmartAzam1234;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -625,7 +633,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.SpendSmart;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SpendSmartAzam1234;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
