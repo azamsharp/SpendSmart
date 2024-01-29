@@ -19,28 +19,18 @@
 		8D45AD232AC92CA900CE0D06 /* SpendSmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D45AD222AC92CA900CE0D06 /* SpendSmartTests.swift */; };
 		8D45AD2A2AC92CFB00CE0D06 /* MockContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D45AD292AC92CFB00CE0D06 /* MockContainer.swift */; };
 		8D45AD2B2AC92D2800CE0D06 /* BudgetCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D828BBE2AC8DD7600CF6BC0 /* BudgetCategory.swift */; };
-		8D7F87F82ACB4AED00FC0FA6 /* BudgetListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7F87F72ACB4AED00FC0FA6 /* BudgetListScreen.swift */; };
-		8D7F87FA2ACB4F8000FC0FA6 /* BudgetDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7F87F92ACB4F8000FC0FA6 /* BudgetDetailScreen.swift */; };
 		8D828BB02AC8DB3D00CF6BC0 /* SpendSmartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D828BAF2AC8DB3D00CF6BC0 /* SpendSmartApp.swift */; };
 		8D828BB42AC8DB3F00CF6BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D828BB32AC8DB3F00CF6BC0 /* Assets.xcassets */; };
 		8D828BB72AC8DB3F00CF6BC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D828BB62AC8DB3F00CF6BC0 /* Preview Assets.xcassets */; };
 		8D828BBF2AC8DD7600CF6BC0 /* BudgetCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D828BBE2AC8DD7600CF6BC0 /* BudgetCategory.swift */; };
 		8D828BC22AC8DF9B00CF6BC0 /* BudgetListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D828BC12AC8DF9B00CF6BC0 /* BudgetListScreen.swift */; };
 		8D828BC42AC8E4B400CF6BC0 /* AddBudgetCategoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D828BC32AC8E4B400CF6BC0 /* AddBudgetCategoryScreen.swift */; };
-		8D9F35342ACAFF4600CC61AD /* SpendSmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F35332ACAFF4600CC61AD /* SpendSmartUITests.swift */; };
 		8DDF68C42ACA502000214018 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF68C32ACA502000214018 /* Transaction.swift */; };
 		8DDF68C52ACA502000214018 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF68C32ACA502000214018 /* Transaction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		8D45AD242AC92CA900CE0D06 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8D828BA42AC8DB3D00CF6BC0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D828BAB2AC8DB3D00CF6BC0;
-			remoteInfo = SpendSmart;
-		};
-		8D9F35372ACAFF4600CC61AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8D828BA42AC8DB3D00CF6BC0 /* Project object */;
 			proxyType = 1;
@@ -62,8 +52,6 @@
 		8D45AD202AC92CA900CE0D06 /* SpendSmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpendSmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D45AD222AC92CA900CE0D06 /* SpendSmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendSmartTests.swift; sourceTree = "<group>"; };
 		8D45AD292AC92CFB00CE0D06 /* MockContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockContainer.swift; sourceTree = "<group>"; };
-		8D7F87F72ACB4AED00FC0FA6 /* BudgetListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetListScreen.swift; sourceTree = "<group>"; };
-		8D7F87F92ACB4F8000FC0FA6 /* BudgetDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetDetailScreen.swift; sourceTree = "<group>"; };
 		8D828BAC2AC8DB3D00CF6BC0 /* SpendSmartAzam1234.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpendSmartAzam1234.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D828BAF2AC8DB3D00CF6BC0 /* SpendSmartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendSmartApp.swift; sourceTree = "<group>"; };
 		8D828BB32AC8DB3F00CF6BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,8 +59,6 @@
 		8D828BBE2AC8DD7600CF6BC0 /* BudgetCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetCategory.swift; sourceTree = "<group>"; };
 		8D828BC12AC8DF9B00CF6BC0 /* BudgetListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetListScreen.swift; sourceTree = "<group>"; };
 		8D828BC32AC8E4B400CF6BC0 /* AddBudgetCategoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetCategoryScreen.swift; sourceTree = "<group>"; };
-		8D9F35312ACAFF4600CC61AD /* SpendSmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpendSmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D9F35332ACAFF4600CC61AD /* SpendSmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendSmartUITests.swift; sourceTree = "<group>"; };
 		8DDF68C32ACA502000214018 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,13 +71,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8D828BA92AC8DB3D00CF6BC0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8D9F352E2ACAFF4600CC61AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -160,21 +139,11 @@
 			path = "Preview Assets";
 			sourceTree = "<group>";
 		};
-		8D7F87F62ACB475F00FC0FA6 /* Page Objects */ = {
-			isa = PBXGroup;
-			children = (
-				8D7F87F72ACB4AED00FC0FA6 /* BudgetListScreen.swift */,
-				8D7F87F92ACB4F8000FC0FA6 /* BudgetDetailScreen.swift */,
-			);
-			path = "Page Objects";
-			sourceTree = "<group>";
-		};
 		8D828BA32AC8DB3D00CF6BC0 = {
 			isa = PBXGroup;
 			children = (
 				8D828BAE2AC8DB3D00CF6BC0 /* SpendSmart */,
 				8D45AD212AC92CA900CE0D06 /* SpendSmartTests */,
-				8D9F35322ACAFF4600CC61AD /* SpendSmartUITests */,
 				8D828BAD2AC8DB3D00CF6BC0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -184,7 +153,6 @@
 			children = (
 				8D828BAC2AC8DB3D00CF6BC0 /* SpendSmartAzam1234.app */,
 				8D45AD202AC92CA900CE0D06 /* SpendSmartTests.xctest */,
-				8D9F35312ACAFF4600CC61AD /* SpendSmartUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,15 +202,6 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
-		8D9F35322ACAFF4600CC61AD /* SpendSmartUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8D7F87F62ACB475F00FC0FA6 /* Page Objects */,
-				8D9F35332ACAFF4600CC61AD /* SpendSmartUITests.swift */,
-			);
-			path = SpendSmartUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -281,24 +240,6 @@
 			productReference = 8D828BAC2AC8DB3D00CF6BC0 /* SpendSmartAzam1234.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8D9F35302ACAFF4600CC61AD /* SpendSmartUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8D9F353B2ACAFF4600CC61AD /* Build configuration list for PBXNativeTarget "SpendSmartUITests" */;
-			buildPhases = (
-				8D9F352D2ACAFF4600CC61AD /* Sources */,
-				8D9F352E2ACAFF4600CC61AD /* Frameworks */,
-				8D9F352F2ACAFF4600CC61AD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8D9F35382ACAFF4600CC61AD /* PBXTargetDependency */,
-			);
-			name = SpendSmartUITests;
-			productName = SpendSmartUITests;
-			productReference = 8D9F35312ACAFF4600CC61AD /* SpendSmartUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -315,10 +256,6 @@
 					};
 					8D828BAB2AC8DB3D00CF6BC0 = {
 						CreatedOnToolsVersion = 15.0;
-					};
-					8D9F35302ACAFF4600CC61AD = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 8D828BAB2AC8DB3D00CF6BC0;
 					};
 				};
 			};
@@ -337,7 +274,6 @@
 			targets = (
 				8D828BAB2AC8DB3D00CF6BC0 /* SpendSmart */,
 				8D45AD1F2AC92CA900CE0D06 /* SpendSmartTests */,
-				8D9F35302ACAFF4600CC61AD /* SpendSmartUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -356,13 +292,6 @@
 			files = (
 				8D828BB72AC8DB3F00CF6BC0 /* Preview Assets.xcassets in Resources */,
 				8D828BB42AC8DB3F00CF6BC0 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8D9F352F2ACAFF4600CC61AD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,16 +330,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D9F352D2ACAFF4600CC61AD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8D7F87F82ACB4AED00FC0FA6 /* BudgetListScreen.swift in Sources */,
-				8D9F35342ACAFF4600CC61AD /* SpendSmartUITests.swift in Sources */,
-				8D7F87FA2ACB4F8000FC0FA6 /* BudgetDetailScreen.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -418,11 +337,6 @@
 			isa = PBXTargetDependency;
 			target = 8D828BAB2AC8DB3D00CF6BC0 /* SpendSmart */;
 			targetProxy = 8D45AD242AC92CA900CE0D06 /* PBXContainerItemProxy */;
-		};
-		8D9F35382ACAFF4600CC61AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8D828BAB2AC8DB3D00CF6BC0 /* SpendSmart */;
-			targetProxy = 8D9F35372ACAFF4600CC61AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -640,40 +554,6 @@
 			};
 			name = Release;
 		};
-		8D9F35392ACAFF4600CC61AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = B2Q8EGNCQA;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.SpendSmartUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SpendSmart;
-			};
-			name = Debug;
-		};
-		8D9F353A2ACAFF4600CC61AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = B2Q8EGNCQA;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.SpendSmartUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SpendSmart;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -700,15 +580,6 @@
 			buildConfigurations = (
 				8D828BBB2AC8DB3F00CF6BC0 /* Debug */,
 				8D828BBC2AC8DB3F00CF6BC0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8D9F353B2ACAFF4600CC61AD /* Build configuration list for PBXNativeTarget "SpendSmartUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8D9F35392ACAFF4600CC61AD /* Debug */,
-				8D9F353A2ACAFF4600CC61AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
